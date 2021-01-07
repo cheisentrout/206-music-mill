@@ -87,6 +87,269 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+ /***** Base styles *****/
+
+ body {
+
+ }
+
+  /***** Header, footer base styles *****/
+
+  header,
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  /***** Header styles - mobile *****/
+
+  header {
+
+  }
+
+  header .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  header figure {
+
+  }
+
+  .header-divider {
+    flex-flow: row wrap;
+
+  }
+
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li {
+    padding: 0 10px;
+
+  }
+
+  header nav ul li a {
+
+  }
+
+  /***** Main area styles - mobile *****/
+
+  main {
+
+  }
+
+  main .content-wrapper {
+
+  }
+
+    /***** Hero area - mobile homepage *****/
+
+    .hero-area {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
+
+    .hero-area h1 {
+
+    }
+
+    /***** Email form field styles - homepage *****/
+
+    aside {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+
+    }
+
+    .form-description {
+
+    }
+
+    .form-description h3 {
+
+    }
+
+    .form-description p {
+
+    }
+
+    .form {
+
+    }
+
+    .form h3 {
+
+    }
+
+    .form input {
+
+    }
+
+    /***** Features styles - homepage *****/
+
+    .features {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+
+    }
+
+    .features h2 {
+
+    }
+
+    .features .features-items {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+
+    }
+
+    .fontawesome-icon {
+
+    }
+
+    .features-item-description {
+
+    }
+
+    /***** Reviews styles *****/
+
+    .reviews {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+
+    }
+
+    .reviews h2 {
+
+    }
+
+    .reviews article {
+
+    }
+
+    .reviews h3 {
+
+    }
+
+    .reviews p {
+
+    }
+
+  /***** Footer styles *****/
+
+  footer .content-wrapper {
+
+  }
+
+  footer .footer-content {
+
+  }
+
+  footer .contact-section {
+
+  }
+
+  footer address {
+
+  }
+
+  footer .social p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer .copyright {
+
+  }
+
+  /*-------------------------------- ABOUT PAGE STYLES -----------------------------*/
+
+  .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+  }
+
+  .mission-content {
+
+  }
+
+  .map {
+
+  }
+
+  .contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+  }
+
+  .column-one,
+  .column-two {
+
+  }
+
+  /*-------------------------------- FAQ PAGE STYLES -------------------------------*/
+
+  .faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+  .faq .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-flow: row wrap;
+
+  }
+
+  .faq-item {
+
+  }
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
