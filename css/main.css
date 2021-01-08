@@ -87,11 +87,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
- /***** Base styles *****/
-
- body {
-
- }
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
 
   /***** Header, footer base styles *****/
 
@@ -106,14 +105,17 @@ textarea {
   /***** Header styles - mobile *****/
 
   header {
+    padding: 15px 0;
 
   }
 
   header .content-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
+
   }
 
   header figure {
@@ -121,32 +123,56 @@ textarea {
   }
 
   .header-divider {
-    flex-flow: row wrap;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0 20px 0;
 
   }
 
   header nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
 
   }
 
   header nav ul {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+
+  }
+
+  footer p {
+    margin: 0;
+  }
+
+  footer .content-wrapper {
+    width: 55%;
+    margin: 50px 0;
+  }
+
+  footer .social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }  
+
+  footer .social-icons p {
+    display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none;
   }
 
-  header nav ul li {
-    padding: 0 10px;
-
-  }
-
-  header nav ul li a {
-
+  footer .copyright {
+    margin: 20px 0;
   }
 
   /***** Main area styles - mobile *****/
@@ -156,6 +182,7 @@ textarea {
   }
 
   main .content-wrapper {
+    width: 90%;
 
   }
 
@@ -164,12 +191,7 @@ textarea {
     .hero-area {
       display: flex;
       justify-content: center;
-      align-items: center;
       flex-flow: row wrap;
-    }
-
-    .hero-area h1 {
-
     }
 
     /***** Email form field styles - homepage *****/
@@ -182,42 +204,23 @@ textarea {
 
     }
 
-    .form-description {
-
-    }
-
-    .form-description h3 {
-
-    }
-
-    .form-description p {
-
-    }
-
-    .form {
-
-    }
-
-    .form h3 {
-
-    }
-
-    .form input {
-
-    }
-
     /***** Features styles - homepage *****/
 
     .features {
       display: flex;
       justify-content: center;
-      align-items: center;
       flex-flow: row wrap;
 
     }
 
     .features h2 {
+      margin-bottom: 60px;
 
+    }
+
+    .features article {
+      width: 63%;
+      margin: 30px 0;
     }
 
     .features .features-items {
@@ -228,12 +231,8 @@ textarea {
 
     }
 
-    .fontawesome-icon {
-
-    }
-
-    .features-item-description {
-
+    .features p {
+      margin: 0;
     }
 
     /***** Reviews styles *****/
@@ -241,62 +240,30 @@ textarea {
     .reviews {
       display: flex;
       justify-content: center;
-      align-items: center;
       flex-flow: row wrap;
 
     }
 
     .reviews h2 {
+      margin-bottom: 40px;
 
     }
-
-    .reviews article {
-
-    }
-
     .reviews h3 {
-
-    }
-
-    .reviews p {
+      width: 55%;
+      margin: 20px 0;
 
     }
 
   /***** Footer styles *****/
 
-  footer .content-wrapper {
 
-  }
 
-  footer .footer-content {
 
-  }
 
-  footer .contact-section {
 
-  }
-
-  footer address {
-
-  }
-
-  footer .social p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  footer .social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  footer .copyright {
-
-  }
-
-  /*-------------------------------- ABOUT PAGE STYLES -----------------------------*/
+  /*=====================================================
+  ABOUT PAGE
+  ======================================================*/
 
   .mission {
     display: flex;
@@ -306,29 +273,20 @@ textarea {
 
   }
 
-  .mission-content {
-
-  }
-
-  .map {
-
-  }
-
   .contact-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+}
 
+  .contact-content p {
+    margin: 0;
   }
 
-  .column-one,
-  .column-two {
-
-  }
-
-  /*-------------------------------- FAQ PAGE STYLES -------------------------------*/
-
+  /*============================================================
+  FAQ PAGE
+  =============================================================*/
   .faq {
     display: flex;
     justify-content: center;
@@ -337,6 +295,7 @@ textarea {
   }
 
   .faq .content-wrapper {
+    margin: 50px 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;  
@@ -344,8 +303,12 @@ textarea {
 
   }
 
-  .faq-item {
+  .faq h2 {
+    margin-bottom: 40px;
+  }
 
+  .faq-content {
+    margin-bottom: 50px;
   }
 
 
